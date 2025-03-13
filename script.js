@@ -29,7 +29,7 @@ function fetchAIResponse(userText) {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
-            "Authorization": "Bearer " + window.OPEN
+            "Authorization": "Bearer " + window.OPENAI_API_KEY
         body: JSON.stringify({
             model: "gpt-3.5-turbo",
             messages: [{ role: "user", content: userText }]
