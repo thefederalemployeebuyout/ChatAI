@@ -29,7 +29,7 @@ function fetchAIResponse(userText) {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
-            "Authorization": "Bearer YOUR_OPENAI_API_KEY"
+            "Authorization": "Bearer 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"
         },
         body: JSON.stringify({
             model: "gpt-3.5-turbo",
